@@ -1,0 +1,36 @@
+{% extends "base.html" %}
+{% block content %}
+  <h2>Account</h2>
+  <h3>Add Medicine</h3>
+  <form method="POST" action="{{ url_for('main.account') }}">
+    {{ form.hidden_tag() }}
+    <div class="form-group">
+      {{ form.name.label(class="form-control-label") }}
+      {{ form.name(class="form-control") }}
+    </div>
+    <div class="form-group">
+      {{ form.dosage.label(class="form-control-label") }}
+      {{ form.dosage(class="form-control") }}
+    </div>
+    <div class="form-group">
+      {{ form.frequency.label(class="form-control-label") }}
+      {{ form.frequency(class="form-control") }}
+    </div>
+    <div class="form-group">
+      {{ form.submit(class="btn btn-primary") }}
+    </div>
+  </form>
+  <h3>Your Medicines</h3>
+  <ul class="list-group">
+    {% for medicine in medicines %}
+      <li class="list-group-item">
+        {{ medicine.name }} - {{ medicine.dosage }} - {{ medicine.frequency }}
+        <a href="{{ url_for('main.edit_medicine', id=medicine.id) }}" class="btn btn-sm btn-secondary">Edit</a>
+        <form action="{{ url_for('main.delete_medicine', id=medicine.id) }}" method="POST" style="display:inline;">
+          {{ form.hidden_tag() }}
+          <button type="submit" class="btn btn-sm btn-danger">Delete</button>
+        </form>
+      </li>
+    {% endfor %}
+  </ul>
+{% endblock %}

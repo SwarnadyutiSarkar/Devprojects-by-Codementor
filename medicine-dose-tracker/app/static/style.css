@@ -1,0 +1,22 @@
+body {
+    padding-top: 56px;
+  }
+  
+  .container {
+    margin-top: 30px;
+  }
+  
+  .jumbotron {
+    background-color: #f8f9fa;
+  }
+  
+  .list-group-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .btn-sm {
+    margin-left: 10px;
+  }
+  
