@@ -1,0 +1,6 @@
+<application
+    ... >
+    <activity android:name=".MoodEntryActivity" />
+    <receiver android:name=".NotificationReceiver" />
+    ...
+</application>
