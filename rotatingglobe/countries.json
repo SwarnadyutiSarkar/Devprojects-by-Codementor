@@ -1,0 +1,130 @@
+[
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Afghanistan",
+        "iso_a2": "AF",
+        "continent": "Asia"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [...]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Albania",
+        "iso_a2": "AL",
+        "continent": "Europe"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [...]
+      }
+    },
+    ...
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Zimbabwe",
+        "iso_a2": "ZW",
+        "continent": "Africa"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [...]
+      }
+    }
+  ]
+  [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Afghanistan",
+        "iso_a2": "AF",
+        "continent": "Asia",
+        "longitude": 65.0,
+        "latitude": 33.0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [61.2108, 35.6406],
+            [62.2307, 35.6406],
+            [62.2307, 34.5904],
+            [61.2108, 34.5904],
+            [61.2108, 35.6406]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Albania",
+        "iso_a2": "AL",
+        "continent": "Europe",
+        "longitude": 20.0,
+        "latitude": 41.0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [19.3739, 42.6619],
+            [19.3739, 41.8623],
+            [20.5908, 41.8623],
+            [20.5908, 42.6619],
+            [19.3739, 42.6619]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Algeria",
+        "iso_a2": "DZ",
+        "continent": "Africa",
+        "longitude": 2.0,
+        "latitude": 28.0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [0.1167, 37.4694],
+            [0.1167, 35.9944],
+            [1.6592, 35.9944],
+            [1.6592, 37.4694],
+            [0.1167, 37.4694]
+          ]
+        ]
+      }
+    },
+    ...
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Zimbabwe",
+        "iso_a2": "ZW",
+        "continent": "Africa",
+        "longitude": 29.0,
+        "latitude": -19.0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [25.2361, -16.4912],
+            [25.2361, -22.4111],
+            [30.8792, -22.4111],
+            [30.8792, -16.4912],
+            [25.2361, -16.4912]
+          ]
+        ]
+      }
+    }
+  ]

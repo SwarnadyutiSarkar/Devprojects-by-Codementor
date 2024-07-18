@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Globe with Rotating Animation and Country Label</title>
+  <style>
+    #globe-container {
+      width: 800px;
+      height: 600px;
+      border: 1px solid black;
+    }
+  </style>
+</head>
+<body>
+  <div id="globe-container"></div>
+  <select id="country-select">
+    <option value="">Select a country</option>
+    <option value="Afghanistan">Afghanistan</option>
+    <option value="Albania">Albania</option>
+    <option value="Algeria">Algeria</option>
+    ...
+    <option value="Zimbabwe">Zimbabwe</option>
+  </select>
+
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+  <script src="globe.js"></script>
+</body>
+</html>
